@@ -1,0 +1,4 @@
+matplotlib
+scikit-image
+rio-tiler
+rasterio[s3]==1.0a10
