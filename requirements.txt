@@ -1,4 +1,4 @@
 matplotlib
 scikit-image
 https://github.com/betatim/rio-tiler/archive/0cbe4ecbc638ec6d7136ab1ffa50f2b9fb48bbd8.zip
-rasterio[s3]==1.0a10
+rasterio
