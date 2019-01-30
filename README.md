@@ -1,6 +1,6 @@
 # How to get data into your Binder
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://github.com/binder-examples/getting-data/master?filepath=Sentinel2.ipynb)
+[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/getting-data/master?filepath=Sentinel2.ipynb)
 
 This example demonstrates a few ways to get data into your binder.
 
