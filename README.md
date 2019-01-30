@@ -1,7 +1,8 @@
 # How to get data into your Binder
 
-This example demonstrates a few ways to get data into your binder.
+[![Binder](http://mybinder.org/badge_logo.svg)](https://github.com/binder-examples/getting-data/master?filepath=Sentinel2.ipynb)
 
+This example demonstrates a few ways to get data into your binder.
 
 ## Small public data
 
