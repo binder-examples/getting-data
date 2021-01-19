@@ -42,9 +42,12 @@ For large files it is not practical to place them in your GitHub repository nor 
 
 The best option for large files is to use a library specific to the data format to stream the data as you are using it. An alternative is to download each file on demand as part of your code, this way we only create network traffic when it is really needed.
 
+[Quilt](https://quiltdata.com/) hosts large public files for free. As a rule of thumb, up to 50,000 files and 1TB of data will build and transfer quickly with Quilt. To materialize only the files that you need, you can [install sub-packages](https://docs.quiltdata.com/api/api-python#quilt-install-pkg-hash-hash-tag-tag-version-version-force-false-meta_only-false) or use [filtering](https://docs.quiltdata.com/api/api-python#filtering). See [data2binder](https://github.com/quiltdata/data2binder) for instructions on moving data from Quilt into Binder. Once the data lands in your Binder container, you may either interact with it as a Python data package, or as a file using `quilt export`. Details and examples are available in the [Quilt docs](https://docs.quiltdata.com/).
+
 There are a few restrictions on outgoing traffic from your Binder that are imposed by the team operating https://mybinder.org. Currently only connections to HTTP and Git are allowed. This comes up when people want to use FTP sites to fetch data. For security reasons FTP will never be allowed on https://mybinder.org.
 
 > Note: to start a discussion of opening additional ports create a new issue on the [mybinder.org repository](https://github.com/jupyterhub/mybinder.org-deploy/).
+
 
 ### How to do it
 
